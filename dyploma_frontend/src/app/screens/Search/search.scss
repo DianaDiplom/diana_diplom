@@ -1,0 +1,13 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  padding-top: 20px;
+  overflow-x: hidden;
+
+  .filmCard {
+    padding: 3px;
+  }
+
+}

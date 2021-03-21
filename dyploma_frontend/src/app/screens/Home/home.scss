@@ -1,0 +1,15 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+
+  .filmCard {
+    padding: 3px;
+  }
+
+  .title {
+    color: white;
+    margin: 20px;
+  }
+}

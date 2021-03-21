@@ -1,0 +1,27 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .form {
+    width: 500px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 2%;
+  }
+
+  .redirectToSignup {
+    margin-top: 20px;
+    font-size: 12px;
+    width: 100%;
+    text-align: end;
+    .redirectLink {
+      color: darkblue;
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}
